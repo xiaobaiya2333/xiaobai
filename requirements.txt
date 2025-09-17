@@ -1,0 +1,4 @@
+flask==3.0.0
+requests-oauthlib==2.0.0
+pygithub==2.4.0
+gunicorn==23.0.0
