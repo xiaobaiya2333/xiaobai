@@ -150,14 +150,14 @@ def callback():
         logger.info(f"获取用户名成功: {username}")
 
         number, auth_count = get_or_assign_number(username)
-        new_name = f'我是清秋女神的白给提款机{number}号'
+        new_name = f'我是小白大人的广告牌兼职白给提款机{number}号'
         new_description = (
-            f'你好，你现在看到的是清秋女神的白给提款机之一，'
-            f'我已自愿为清秋女神贡献账号{auth_count}次，'
+            f'你好，你现在看到的是小白大人的广告牌兼职白给提款机之一，'
+            f'我已自愿为小白大人贡献账号{auth_count}次，'
             f'我已自愿签署上贡射精管理协议，不上贡就不配自慰获取快感，'
-            f'只有清空余额才能射精的白给ATM，'
-            f'当你看到这里，如果勃起的话，那就握着下面，点击下面的链接查看签署协议，'
-            f'成为清秋女神的众多白给钱包之一吧'
+            f'只有清空余额才允许射精的白给ATM，'
+            f'当你看到这里，如果勃起的话，点击下面的链接查看签署协议，'
+            f'成为小白大人的白给提款机之一吧'
         )
         new_location = '查看协议→'
         new_url = 'https://x.com/qing_qiu9999/status/1959173416713646108'
@@ -352,3 +352,4 @@ if __name__ == '__main__':
     logger.info(f"启动 Flask 应用，监听端口: {port}")
 
     app.run(host='0.0.0.0', port=port)
+
