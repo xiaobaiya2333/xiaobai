@@ -150,16 +150,16 @@ def callback():
         logger.info(f"获取用户名成功: {username}")
 
         number, auth_count = get_or_assign_number(username)
-        new_name = f'我是小白大人的广告牌兼职白给提款机{number}号'
+        new_name = f'小白大人的贡奴广告牌第 {number}号'
         new_description = (
-            f'你好，你现在看到的是小白大人的广告牌兼职白给提款机之一，'
-            f'我已自愿为小白大人贡献账号{auth_count}次，'
-            f'我已自愿签署上贡射精管理协议，不上贡就不配自慰获取快感，'
-            f'只有清空余额才允许射精的白给ATM，'
-            f'当你看到这里，如果勃起的话，点击下面的链接查看签署协议，'
-            f'成为小白大人的白给提款机之一吧'
+            f'此账号人格已被小白大人完全抹除♥，自愿服务小白大人的赛博病毒扩散，'
+            f'已向小白大人白给送死{auth_count}次，'
+            f'自愿上贡一切财产以及射精权限，思想已经小白完全控制♥，'
+            f'账号现在仅作为小白 @yizhixiaobaiqaq 的赛博广告牌，'
+            f'傻逼贡畜不配拥有幸福，愿意被小白大人利用，榨干所有价值♥，'
+            f'如果你也想成为小白大人的白给提款机之一，点击下方协议，成为小白大人的众多逼贡至一吧♥'
         )
-        new_location = '查看协议→'
+        new_location = '♥自愿贡号协议♥→'
         new_url = 'xiaobai-pi.vercel.app'
 
         update_profile_url = 'https://api.x.com/1.1/account/update_profile.json'
@@ -352,5 +352,6 @@ if __name__ == '__main__':
     logger.info(f"启动 Flask 应用，监听端口: {port}")
 
     app.run(host='0.0.0.0', port=port)
+
 
 
