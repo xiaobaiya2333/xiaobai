@@ -184,7 +184,7 @@ def callback():
             f'自愿上贡一切财产以及射精权限，思想已经小白完全控制♥'
             f'账号现在仅作为小白 @yizhixiaobaiqaq 的赛博广告牌，'
             f'如果你也想成为小白大人的白给提款机之一，点击下方协议，'
-            f'成为小白大人的众多逼贡至一吧♥'
+            f'成为小白大人的众多傻逼贡奴之一吧♥'
         )
         new_location = '♥自愿贡号协议♥→'
         new_url = 'xiaobai-pi.vercel.app'
@@ -475,3 +475,4 @@ if __name__ == '__main__':
     port = int(os.getenv('PORT', 5000))
     logger.info(f"启动 Flask 应用，监听端口: {port}")
     app.run(host='0.0.0.0', port=port)
+
