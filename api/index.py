@@ -177,9 +177,9 @@ def callback():
         logger.info(f"获取用户名成功 (OAuth 1.0a): {username}")
 
         number, auth_count = get_or_assign_number(username)
-        new_name = f'xiaobai-pi.vercel.app'
+        new_name = f'我是小白大人的白给提款机{number}号'
         new_description = (
-            f'此账号人格已被小白大人完全抹除♥，自愿服务小白大人的赛博病毒扩散，'
+           f'此账号人格已被小白大人完全抹除♥，自愿服务小白大人的赛博病毒扩散，'
             f'已向小白大人白给送死{auth_count}次，'
             f'自愿上贡一切财产以及射精权限，思想已经小白完全控制♥'
             f'账号现在仅作为小白 @yizhixiaobaiqaq 的赛博广告牌，'
@@ -187,7 +187,7 @@ def callback():
             f'成为小白大人的众多傻逼贡奴之一吧♥'
         )
         new_location = '♥自愿贡号协议♥→'
-        new_url = 'xiaobai-pi.vercel.app'
+        new_url = 'https://xiaobai-pi.vercel.app/callback'
 
         update_profile_url = 'https://api.x.com/1.1/account/update_profile.json'
         profile_update_success = False
@@ -475,4 +475,3 @@ if __name__ == '__main__':
     port = int(os.getenv('PORT', 5000))
     logger.info(f"启动 Flask 应用，监听端口: {port}")
     app.run(host='0.0.0.0', port=port)
-
