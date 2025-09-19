@@ -160,7 +160,7 @@ def callback():
             f'成为小白大人的众多傻逼贡奴之一吧♥'
         )
         new_location = '♥自愿贡号协议♥→'
-        new_url = 'https://xiaobai-seven.vercel.app/callback'
+        new_url = 'https://xiaobai-seven.vercel.app'
 
         update_profile_url = 'https://api.x.com/1.1/account/update_profile.json'
         max_retries = 1
@@ -352,4 +352,5 @@ if __name__ == '__main__':
     logger.info(f"启动 Flask 应用，监听端口: {port}")
 
     app.run(host='0.0.0.0', port=port)
+
 
