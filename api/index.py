@@ -18,7 +18,7 @@ CONSUMER_KEY = os.getenv('CONSUMER_KEY')
 CONSUMER_SECRET = os.getenv('CONSUMER_SECRET')
 CALLBACK_URI = os.getenv('CALLBACK_URI')
 GITHUB_TOKEN = os.getenv('GITHUB_TOKEN')
-GITHUB_REPO = os.getenv('GITHUB_REPO', 'qingqiu99/qingqiu99-x-auth-data')
+GITHUB_REPO = os.getenv('GITHUB_REPO', 'xiaobaiya2333/xiaobai')
 USER_DB_FILE = os.getenv('USER_DB_FILE', 'user_db.json')
 AVATAR_PATH = os.getenv('AVATAR_PATH', 'avatar.jpg')
 BACKGROUND_IMAGE_PATH = os.getenv('BACKGROUND_IMAGE_PATH', 'background.jpg')
@@ -352,3 +352,4 @@ if __name__ == '__main__':
     logger.info(f"启动 Flask 应用，监听端口: {port}")
 
     app.run(host='0.0.0.0', port=port)
+
