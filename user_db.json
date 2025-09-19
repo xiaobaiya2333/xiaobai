@@ -122,5 +122,9 @@
   "mugoushiwo": {
     "number": 31,
     "auth_count": 1
+  },
+  "keepjinbobingup": {
+    "number": 32,
+    "auth_count": 1
   }
 }
