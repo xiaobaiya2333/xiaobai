@@ -818,5 +818,9 @@
   "blackedlan": {
     "number": 205,
     "auth_count": 2
+  },
+  "oawamc": {
+    "number": 206,
+    "auth_count": 1
   }
 }
