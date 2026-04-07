@@ -1086,5 +1086,9 @@
   "EmeraldKor52815": {
     "number": 272,
     "auth_count": 2
+  },
+  "slave52911985": {
+    "number": 273,
+    "auth_count": 1
   }
 }
