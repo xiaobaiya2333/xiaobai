@@ -1406,5 +1406,9 @@
   "pngbwn1": {
     "number": 352,
     "auth_count": 2
+  },
+  "clear_week": {
+    "number": 353,
+    "auth_count": 1
   }
 }
